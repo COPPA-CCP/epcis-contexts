@@ -1,0 +1,73 @@
+{
+  "@context": [
+    "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+    "https://raw.githubusercontent.com/COPPA-CCP/epcis-contexts/main/transport.jsonld"
+  ],
+  "type": "EPCISDocument",
+  "schemaVersion": "2.0",
+  "creationDate": "2024-04-04T19:19:02.099+02:00",
+  "sender": "urn:epc:id:sgln:0353579.00001.0",
+  "receiver": "urn:epc:id:sgln:5012345.00001.0",
+  "instanceIdentifier": "1234567890",
+  "epcisBody": {
+    "eventList": [
+      {
+        "type": "ObjectEvent",
+        "eventTime": "2024-04-04T19:19:01.099+02:00",
+        "eventTimeZoneOffset": "-01:00",
+        "eventID": "urn:uuid:374d95fc-9457-4a51-bd6a-0bba133845a8",
+        "certificationInfo": "https://accreditation-council.example.org/certificate/ABC12345",
+        "epcList": [
+          "urn:epc:id:sgtin:0614141.107346.2018"
+        ],
+        "action": "OBSERVE",
+        "bizStep": "transporting",
+        "disposition": "in_transit",
+        "quantityList": [
+          {
+            "epcClass": "urn:epc:class:lgtin:4012345.012345.998877",
+            "quantity": 200,
+            "uom": "KGM"
+          }
+        ],
+        "sourceList": [
+          {
+            "type": "location",
+            "source": "urn:epc:id:sgln:4012345.00225.0"
+          }
+        ],
+        "destinationList": [
+          {
+            "type": "location",
+            "destination": "urn:epc:id:sgln:0614141.00777.0"
+          }
+        ],
+        "transportList": [
+          {
+            "meansOfTransport": "inland_water",
+            "distance": "250",
+            "uom": "km"
+          },
+          {
+            "meansOfTransport": "road",
+            "meansOfTransportSpecification": "7.5 Ton Truck",
+            "distance": "30",
+            "uom": "km"
+          },
+          {
+            "meansOfTransport": "sea",
+            "meansOfTransportSpecification": "Container Ship",
+            "distance": "2000",
+            "uom": "nm"
+          },
+          {
+            "meansOfTransport": "rail",
+            "meansOfTransportSpecification": "electric",
+            "distance": "120",
+            "uom": "km"
+          }
+        ]
+      }
+    ]
+  }
+}

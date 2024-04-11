@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "gs1": "https://gs1.org/voc/",
+    "coppa": "https://raw.githubusercontent.com/COPPA-CCP/epcis-contexts/main/voc/",
+    "transportList": {
+      "@id": "coppa:transport-list.md"
+    },
+    "meansOfTransport": {
+      "@id": "coppa:means-of-transport.md"
+    },
+    "meansOfTransportSpecification": {
+      "@id": "coppa:means-of-transport-specification.md"
+    },
+    "distance": {
+      "@id": "coppa:distance.md"
+    }
+  }
+}

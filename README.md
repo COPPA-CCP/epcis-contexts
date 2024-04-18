@@ -4,7 +4,7 @@ Additonal contexts for EPCIS in the COPPA ecosystem based on [EPCIS](https://ref
 
 ## Transporation Event
 
-A transportation event is dedicated to map the transportation of a good in a single event, including all information neccessary to estimate the CO2 emission of the process based on EcoInvent calculation.
+A transportation event is dedicated to map the transportation of a good in a single event, including all information neccessary to estimate the CO2 emission of the process based on [EcoInvent calculation vocabulary](https://support.ecoinvent.org/transport).
 
 Alternatively the transportation can be modelled with a series of shipping events.
 

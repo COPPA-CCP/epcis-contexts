@@ -50,13 +50,13 @@
           },
           {
             "meansOfTransport": "road",
-            "meansOfTransportSpecification": "7.5 Ton Truck",
+            "meansOfTransportSpecification": "lorry_35_75",
             "distance": "30",
             "uom": "km"
           },
           {
             "meansOfTransport": "sea",
-            "meansOfTransportSpecification": "Container Ship",
+            "meansOfTransportSpecification": "container_ship",
             "distance": "2000",
             "uom": "nm"
           },

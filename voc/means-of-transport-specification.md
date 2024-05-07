@@ -1,6 +1,6 @@
 # Means of Transport Specification
 
-Specification of the precise means of transport. The exact value must match with the specified [means of transport](./means-of-transport.md).
+OPTIONAL specification of the precise means of transport. The exact value must match with the specified [means of transport](./means-of-transport.md).
 
 ## Rail
 

@@ -44,25 +44,25 @@
         ],
         "transportList": [
           {
-            "meansOfTransport": "inland_water",
+            "meansOfTransport": "INLAND_WATER",
             "distance": "250",
             "uom": "km"
           },
           {
-            "meansOfTransport": "road",
-            "meansOfTransportSpecification": "lorry_35_75",
+            "meansOfTransport": "ROAD",
+            "meansOfTransportSpecification": "LORRY_35_75",
             "distance": "30",
             "uom": "km"
           },
           {
-            "meansOfTransport": "sea",
-            "meansOfTransportSpecification": "container_ship",
+            "meansOfTransport": "SEA",
+            "meansOfTransportSpecification": "CONTAINER_SHIP",
             "distance": "2000",
             "uom": "nm"
           },
           {
-            "meansOfTransport": "rail",
-            "meansOfTransportSpecification": "electric",
+            "meansOfTransport": "RAIL",
+            "meansOfTransportSpecification": "ELECTRIC",
             "distance": "120",
             "uom": "km"
           }

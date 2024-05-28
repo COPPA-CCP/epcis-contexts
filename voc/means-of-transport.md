@@ -2,7 +2,7 @@
 
 Means of transport category as defined in EcoInvent
 
-- `air`
-- `inland_water`
-- `road`
-- `sea`
+- `AIR`
+- `INLAND_WATER`
+- `ROAD`
+- `SEA`

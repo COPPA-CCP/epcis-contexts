@@ -1,7 +1,9 @@
 {
   "@context": [
     "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
-    "https://raw.githubusercontent.com/COPPA-CCP/epcis-contexts/main/transport.jsonld"
+    {
+      "coppa": "https://raw.githubusercontent.com/COPPA-CCP/epcis-contexts/main/voc/"
+    }
   ],
   "type": "EPCISDocument",
   "schemaVersion": "2.0",
@@ -42,28 +44,28 @@
             "destination": "urn:epc:id:sgln:0614141.00777.0"
           }
         ],
-        "transportList": [
+        "coppa:transportList": [
           {
-            "meansOfTransport": "INLAND_WATER",
-            "distance": "250",
+            "coppa:meansOfTransport": "INLAND_WATER",
+            "coppa:distance": "250",
             "uom": "km"
           },
           {
-            "meansOfTransport": "ROAD",
-            "meansOfTransportSpecification": "LORRY_35_75",
-            "distance": "30",
+            "coppa:meansOfTransport": "ROAD",
+            "coppa:meansOfTransportSpecification": "LORRY_35_75",
+            "coppa:distance": "30",
             "uom": "km"
           },
           {
-            "meansOfTransport": "SEA",
-            "meansOfTransportSpecification": "CONTAINER_SHIP",
-            "distance": "2000",
+            "coppa:meansOfTransport": "SEA",
+            "coppa:meansOfTransportSpecification": "CONTAINER_SHIP",
+            "coppa:distance": "2000",
             "uom": "nm"
           },
           {
-            "meansOfTransport": "RAIL",
-            "meansOfTransportSpecification": "ELECTRIC",
-            "distance": "120",
+            "coppa:meansOfTransport": "RAIL",
+            "coppa:meansOfTransportSpecification": "ELECTRIC",
+            "coppa:distance": "120",
             "uom": "km"
           }
         ]
